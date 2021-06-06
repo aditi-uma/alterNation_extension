@@ -1,0 +1,19 @@
+{
+    "manifest_version": 2,
+    "name": "AlterNation",
+    "version": "0.1",
+    "description": "Providing alternative solutions to help alter your nation.",
+    "background": {
+        "persistent": true,
+        "scripts": ["js/background.js"]
+      },
+    "permissions": [
+         "contextMenus",
+         "activeTab"
+        ],
+    "icons": {
+        "16": "images/icon.png",
+        "48": "images/icon.png",
+        "128": "images/icon.png"
+    }
+}
