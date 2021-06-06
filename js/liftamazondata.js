@@ -27,7 +27,7 @@ xhttp.onreadystatechange = function() {
     }
     else if(ab.isGreen==true)
     {
-      alert("Good choice");
+      alert("That's a great choice! Good for you!");
     }
     else{
       alert("We recommend buying here instead, as comp is known unfriendly:\n "+ ab.alternatives.alt1.name+'\n'+ ab.alternatives.alt1.ownLink);
